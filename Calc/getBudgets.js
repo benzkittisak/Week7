@@ -1,4 +1,4 @@
-const getBudgets = (data)=>{
+function getBudgets(data){
     let sum = 0;
     for(let i of data) sum += i.budget;
     return sum;

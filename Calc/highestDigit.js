@@ -8,13 +8,16 @@ const  highestDigit = (num) =>{
     return Math.max(...result);*/
 
     /** 379 => "379" ["3","7","9"] */
+    /*
     let x = num.toString().split('');
     let max = 0; 
     for(let y of x){
         if(max < y) max = y;
     }
     return parseInt(max);
-
+    */
+   let x = num.toString();
+   return typeof ...num;
 }
 console.log(highestDigit(379))
 console.log(highestDigit(2))
