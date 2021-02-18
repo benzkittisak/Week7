@@ -16,8 +16,6 @@ const  highestDigit = (num) =>{
     }
     return parseInt(max);
     */
-   let x = num.toString();
-   return typeof ...num;
 }
 console.log(highestDigit(379))
 console.log(highestDigit(2))
