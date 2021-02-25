@@ -2,8 +2,8 @@ function totalVolume(){
     let total = 0 ;
     for(let arg of arguments){ 
         let result_arg = 1;
-        for(let i = 0; i<arg.length;i++){
-            result_arg *= arg[i]
+        for(let i of arg){
+            result_arg *= i
         }
         total += result_arg;
     }

@@ -1,16 +1,15 @@
 function capToFront (text){
-    let upper = "";
-    let lower = "";
-    let temp = text.split('');
-    for(let char of temp){
-       if(char === char.toUpperCase()){
-           upper += char;
+    let up = "";
+    let low = "";
+    for(let chr of text){
+       if(chr === chr.toUpperCase()){
+           up += chr;
        }
-       if(char === char.toLowerCase()){
-          lower += char;
+       else{
+          low += chr;
        }
     }
-    return upper+lower;
+    return up+low;
 }
 
 console.log(capToFront("hApPy"));
